@@ -1,0 +1,59 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+	    android:background="#ff5555ff">
+	     	<WebView 
+	         android:id="@+id/webview" 
+	         android:layout_width="fill_parent"  
+	         android:layout_height="fill_parent" 
+	         /> 
+    </LinearLayout>
+    
+    	<LinearLayout     
+	     
+    	android:id="@+id/slidingPage01"
+    	android:orientation="horizontal" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="top"
+    	android:background="#ffffff66"
+    	android:visibility="gone">
+    	
+    	    
+	    	    
+	     <Button   
+	     	android:id="@+id/loadBtn"
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"  
+	            android:text=" 열기 " 
+	            android:padding="4dp" 
+	            android:textSize="20dp" 
+	            /> 
+	     <EditText   
+	     	android:id="@+id/urlInput"
+	            android:layout_width="fill_parent"  
+	            android:layout_height="wrap_content"  
+	            android:textSize="20dp" 
+	            /> 
+    </LinearLayout>
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="right|top"
+    	android:background="#00000000">
+		<Button  
+			android:id="@+id/openBtn01"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="Open"
+		    />
+	</LinearLayout>
+</FrameLayout>
+
