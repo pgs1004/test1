@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
 	
 	//여기서부턴 에니메이션
 	///git test 업데이트 잘됫닝?>ㅋ
+	//git test2 new_brnach
 	boolean isPageOpen = false;
 	Animation translateLeftAnim;
 	Animation translateRightAnim;
