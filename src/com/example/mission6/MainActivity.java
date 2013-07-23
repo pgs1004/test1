@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
 	private Handler mHandler = new Handler();
 	
 	//여기서부턴 에니메이션
+	///git test 업데이트 잘됫닝?>ㅋ
 	boolean isPageOpen = false;
 	Animation translateLeftAnim;
 	Animation translateRightAnim;
